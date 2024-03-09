@@ -7,7 +7,7 @@ function even() {
         }
     }
     else if (a == "2") {
-        let limit = parseInt(prompt(`how much do you want to print od numbers?`));
+        let limit = parseInt(prompt(`how much do you want to print odd numbers?`));
         for (j = 1; j <= limit; j += 2) {
             document.write(`<center><h1><br>${j}</br></h1></center>`);
         }
